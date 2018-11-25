@@ -21,7 +21,6 @@ class Scraper
     profile_links = []
     profile_page = Nokogiri::HTML(open(profile_url))
     profile_page.css("div.social-icon-container")
-    binding.pry
   end
 
 end
